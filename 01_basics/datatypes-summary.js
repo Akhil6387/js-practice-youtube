@@ -31,3 +31,28 @@ const myFunction = function(){
 }
 
 console.log(typeof scoreValue);
+
+console.log("-------------");
+
+// +++++++++++++++++++++++++++++++++++++++
+
+//Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "hiteshsinghdotcom"
+
+let anothername = myYoutubename
+anothername = "akhildotcom"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    gmail: "akhil@gmail.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.gmail = "yadav@gmail.com"
+
+console.log("userOne");
+console.log("userTwo");
