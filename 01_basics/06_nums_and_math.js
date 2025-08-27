@@ -27,6 +27,9 @@ console.log(Math.round(2.49));   //#output:2  // If we change (2.49) to (2.5004 
 console.log(Math.ceil(2.2867));    // give high value 3
 console.log(Math.floor(2.8967));  // give low value 2
 
+console.log(Math.min(4, 3, 6, 8));
+console.log(Math.max(4, 3, 6, 8));
+
 console.log(Math.random());   // output: 0.4157412707798396 //or may be somthing else
 
 console.log((Math.random()*10) + 1);  // output: 8.219341472331774 //it will change when you run again
